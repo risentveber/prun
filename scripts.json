@@ -1,7 +1,7 @@
 [
   {
-    "name": "go:<%param%>",
-    "command": "echo hello_world $MESSAGE",
+    "name": "go:<%param%>:<%sake%>",
+    "command": "echo <%param%> $MESSAGE <%sake%>",
     "env": {
       "MESSAGE": "hello"
     }
