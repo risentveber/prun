@@ -1,0 +1,9 @@
+[
+  {
+    "name": "go:<%param%>",
+    "command": "echo hello_world $MESSAGE",
+    "env": {
+      "MESSAGE": "hello"
+    }
+  }
+]
