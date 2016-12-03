@@ -1,10 +1,10 @@
 {
   "name": "nake",
   "version": "1.0.0",
-  "description": "Comfortable scripts runner",
+  "description": "Comfortable scripts runner that supports simple templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"The tests haven't been developed yet\" && exit 1"
   },
   "keywords": [
     "script",
@@ -12,7 +12,7 @@
     "task",
     "manager"
   ],
-  "author": "Risent Veber",
+  "author": "Risent Veber <risentveber@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^2.0.0"
