@@ -1,19 +1,28 @@
 {
-  "name": "nake",
+  "name": "prun",
   "version": "1.0.0",
+  "author": "Risent Veber <risentveber@gmail.com>",
   "description": "Comfortable scripts runner that supports simple templates",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/risentveber/prun.git"
+  },
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"The tests haven't been developed yet\" && exit 1"
+  },
+  "bin": {
+    "prun": "index.js"
   },
   "keywords": [
     "script",
     "runner",
     "task",
+    "pattern",
+    "run",
     "manager"
   ],
-  "author": "Risent Veber <risentveber@gmail.com>",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^2.0.0"
   }

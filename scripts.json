@@ -5,5 +5,12 @@
     "env": {
       "MESSAGE": "hello"
     }
+  },
+  {
+    "name": "go:<%param%>",
+    "command": "echo <%param%> $MESSAGE",
+    "env": {
+      "MESSAGE": "hello 2"
+    }
   }
 ]
