@@ -1,6 +1,6 @@
 {
   "name": "prun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Risent Veber <risentveber@gmail.com>",
   "description": "Comfortable scripts runner that supports simple templates",
   "repository": {
