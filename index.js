@@ -25,13 +25,11 @@ for(var i = 0; i < scripts.length; i++) {
     if (pattern.matches(commandName)) {
         log('Starting script: ');
         log(commandName + '\n', m.FgRed);
-        run(pattern.getDataForExecution(), function (error, stdout, stderr) {
-            process.stderr.write(stderr);
-            process.stdout.write(stdout);
-            error !== null && exit('runtime error: ' + error);
+        run(pattern.getDataForExecution(), function (code) {
+            code && exit('script exit code: ' + code);
+            log('Finishing script: ');
+            log(commandName + '\n', m.FgRed);
         });
-        log('Finishing script: ');
-        log(commandName + '\n', m.FgRed);
         break;
     }
 

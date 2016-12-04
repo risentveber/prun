@@ -10,7 +10,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"The tests haven't been developed yet\" && exit 1"
+    "test:case1": "node index.js case:1",
+    "test:case2": "node index.js case:2:special",
+    "test": "npm run test:case1 && npm run test:case2"
   },
   "bin": {
     "prun": "index.js"

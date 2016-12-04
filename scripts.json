@@ -1,16 +1,19 @@
 [
   {
-    "name": "go:<%param%>:<%sake%>",
-    "command": "echo <%param%> $MESSAGE <%sake%>",
+    "name": "case:<%num%>:<%default_param%>",
+    "command": "node test/case-<%num%>.js",
     "env": {
-      "MESSAGE": "hello"
+      "NUM": "<%num%>",
+      "MESSAGE": "hello",
+      "TEST_PARAM": "<%default_param%>"
     }
   },
   {
-    "name": "go:<%param%>",
-    "command": "echo <%param%> $MESSAGE",
+    "name": "case:<%num%>",
+    "command": "node test/case-<%num%>.js",
     "env": {
-      "MESSAGE": "hello 2"
+      "NUM": "<%num%>",
+      "MESSAGE": "hello"
     }
   }
 ]
